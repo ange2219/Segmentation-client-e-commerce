@@ -3,7 +3,7 @@
 Bienvenue dans ce projet de **segmentation clients** appliqué aux données d’une grande boutique.
 L’objectif est d’explorer, segmenter et prédire les comportements d’achat afin d’optimiser les décisions marketing.
 
-🚀 Application disponible ici : [Accéder à l’application Streamlit](https://lien-vers-ton-app-streamlit)
+🚀 Application disponible ici : [Accéder à l’application Streamlit](https://segmentation-client-e-commerce.streamlit.app/)
 
 
 ### 1️⃣ Cloner le dépôt

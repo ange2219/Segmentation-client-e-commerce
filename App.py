@@ -487,10 +487,10 @@ def EDA_page():
             st.markdown("""
             | *Cluster* | *Profil Client* | *Stratégie Marketing* |
             |-------------|------------------|--------------------------|
-            | *0* | Clients *récents* (Recency faible), *très actifs* (Frequency élevée), mais avec un *panier moyen modéré. Ce sont des acheteurs réguliers et fidèles. | Fidéliser avec un **programme de fidélité* (réductions cumulées, points, cadeaux), et proposer des ventes croisées (cross-selling) pour augmenter le panier moyen. |
-            | *1* | Clients *peu récents* (longtemps inactifs), avec une *fréquence faible, mais un **panier moyen correct. Ce sont des clients à risque de **churn. | Relancer avec des **campagnes de réactivation* (emails personnalisés, offres exclusives, codes promo). Mettre en avant la *nouveauté* et les produits tendances pour susciter leur retour. |
-            | *2* | Clients *récents, avec une **fréquence moyenne* et un *panier légèrement supérieur à la moyenne. Ils sont actifs mais pas encore pleinement fidèles. | Encourager la **récurrence d’achat* avec des *ventes flash* ou des *abonnements*. Créer une expérience personnalisée (recommandations basées sur achats passés). |
-            | *3* | Clients *intermédiaires en récence* (ni très récents ni trop anciens), avec une *faible fréquence, mais un **panier très élevé. Ce sont des **gros dépensiers occasionnels. | Mettre en place une **stratégie premium/VIP* (accès anticipé aux nouveautés, service personnalisé). Offrir des avantages exclusifs pour les inciter à acheter plus souvent. |
+            | *0* | Clients *récents* (Recency faible), *très actifs* (Frequency élevée), mais avec un *panier moyen modéré. Ce sont des acheteurs réguliers et fidèles. | Fidéliser avec un **programme de fidélité** (réductions cumulées, points, cadeaux), et proposer des ventes croisées (cross-selling) pour augmenter le panier moyen. |
+            | *1* | Clients *peu récents* (longtemps inactifs), avec une *fréquence faible, mais un **panier moyen correct**. Ce sont des clients à risque de **churn**. | Relancer avec des **campagnes de réactivation** (emails personnalisés, offres exclusives, codes promo). Mettre en avant la *nouveauté* et les produits tendances pour susciter leur retour. |
+            | *2* | Clients *récents*, avec une **fréquence moyenne** et un panier légèrement supérieur à la moyenne. Ils sont actifs mais pas encore pleinement fidèles. | Encourager la **récurrence d’achat** avec des *ventes flash* ou des *abonnements*. Créer une expérience personnalisée (recommandations basées sur achats passés). |
+            | *3* | Clients *intermédiaires en récence** (ni très récents ni trop anciens), avec une *faible fréquence*, mais un **panier très élevé**. Ce sont des **gros dépensiers occasionnels**. | Mettre en place une **stratégie premium/VIP** (accès anticipé aux nouveautés, service personnalisé). Offrir des avantages exclusifs pour les inciter à acheter plus souvent. |
             """)
 
 
@@ -602,3 +602,4 @@ if selected == "EDA":
 
 if selected == "Prédiction":
     prediction()
+

@@ -2,13 +2,12 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import plotly.express as px
-with st.sidebar:
-    selected = option_menu(
-        "Menu",
-        ["Acceuil", "EDA", "Prédiction"],
-        icons=["house", "graph-up", "robot"],
-        menu_icon="menu-app",
-        default_index=0
+selected = option_menu(
+    "Menu",
+    ["Acceuil", "EDA", "Prédiction"],
+    icons=["house", "graph-up", "robot"],
+    menu_icon="menu-app",
+    default_index=0
     )
 def Acceuil():
     st.markdown("""
@@ -602,4 +601,5 @@ if selected == "EDA":
 
 if selected == "Prédiction":
     prediction()
+
 
